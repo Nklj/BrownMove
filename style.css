@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
-canvas {
-  border: 1px solid black;
+nav {
+  position: absolute;
+}
+
+button {
+  display: block;
 }
