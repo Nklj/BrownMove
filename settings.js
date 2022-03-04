@@ -19,7 +19,7 @@ export const settings = [
     rad: 15,
     color: "rgba(0,0,0,0)",
     colorBorder: "random",
-    background: "gray",
+    background: "ivory",
     trace: true,
     move: null,
     bounce: null,

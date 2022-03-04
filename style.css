@@ -1,9 +1,15 @@
 body {
   margin: 0;
+  background-color: silver;
+}
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 15%;
 }
 
 nav {
-  position: absolute;
+  position: fixed;
 }
 
 button {

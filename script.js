@@ -47,7 +47,10 @@ class Circle {
 }
 
 const versionHandler = (e) => {
+  const h1 = document.body.querySelector("h1");
+  h1 && h1.remove();
   cancelAnimationFrame(animateId);
+  c.clearRect(0, 0, W, H);
   const data = settings[e.target.id - 1];
   document.body.style.backgroundColor = data.background;
 
