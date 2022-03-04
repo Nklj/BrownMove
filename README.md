@@ -1,4 +1,4 @@
 # BrownMove
 
 Simple meditative app  
-Demo
+Demo https://nklj.github.io/BrownMove/
