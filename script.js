@@ -47,7 +47,7 @@ class Circle {
 }
 
 const versionHandler = (e) => {
-  const h1 = document.body.querySelector("h1");
+  const h1 = document.querySelector("h1");
   h1 && h1.remove();
   cancelAnimationFrame(animateId);
   c.clearRect(0, 0, W, H);
